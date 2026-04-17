@@ -2,4 +2,3 @@ flask>=3.0
 opencv-python-headless>=4.8
 numpy>=1.24
 PyWavelets>=1.4
-invisible-watermark>=0.2.0
