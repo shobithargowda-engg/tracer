@@ -17,8 +17,6 @@ from flask import Flask, request, jsonify, send_file, render_template
 import cv2
 import numpy as np
 
-# Add the invisible-watermark library to path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'invisible-watermark'))
 from imwatermark import WatermarkEncoder, WatermarkDecoder
 
 app = Flask(__name__)
