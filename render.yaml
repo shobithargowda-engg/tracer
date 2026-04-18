@@ -1,0 +1,15 @@
+# ─── Render Blueprint ─────────────────────────────────────────────────────────
+# Deploy with: https://render.com/deploy → connect this repo
+# Docs: https://docs.render.com/blueprint-spec
+# ──────────────────────────────────────────────────────────────────────────────
+
+services:
+  - type: web
+    name: tracer
+    runtime: docker
+    region: oregon
+    plan: free
+    rootDir: tracer_app
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeploy: true

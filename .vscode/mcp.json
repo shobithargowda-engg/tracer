@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "tracer Docs": {
+      "type": "sse",
+      "url": "https://gitmcp.io/shobithargowda-engg/tracer"
+    }
+  }
+}
